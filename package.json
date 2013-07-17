@@ -12,6 +12,7 @@
         "moment": "2.0.0",
         "async":"0.2.8",
         "orm":"2.0.15"
+        
     },
     "devDependencies": {
         "http-post": "*",
