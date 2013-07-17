@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
     // 配置
+	
     grunt.initConfig({
         mochacli: {
             options: {
