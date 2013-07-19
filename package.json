@@ -1,25 +1,26 @@
 {
-    "name": "application-name",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "start": "node app.js"
-    },
-    "dependencies": {
-        "express": "3.2.2",
-        "hbs": "*",
-        "underscore": "1.4.4",
-        "moment": "2.0.0",
-        "async":"0.2.8",
-        "orm":"2.0.15"
-        
-    },
-    "devDependencies": {
-        "http-post": "*",
-        "should": "*",
-        "chai": "*",
-        "mocha": "*",
-        "grunt": "~0.4.1",
-        "grunt-mocha-cli": "~1.0.5"
-    }
+  "name": "solo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.2",
+    "hbs": "*",
+    "underscore": "1.4.4",
+    "moment": "2.0.0",
+    "async": "0.2.8",
+    "orm": "2.0.15",
+    "mysql": "2.0.0-alpha7"
+  },
+  "devDependencies": {
+    "http-post": "*",
+    "should": "*",
+    "chai": "*",
+    "mocha": "*",
+    "grunt": "~0.4.1",
+    "supervisor": "*",
+    "grunt-mocha-cli": "~1.0.6"
+  }
 }
